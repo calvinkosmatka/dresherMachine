@@ -155,7 +155,6 @@ class Language(object):
 						except ValueError:
 							continue
 						orderedArray = self.build_array(perm)
-						#print(orderedArray)
 						prevNumDistinct = 1
 						try:
 							for i in range(len(perm)):
